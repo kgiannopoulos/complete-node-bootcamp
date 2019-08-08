@@ -13,7 +13,7 @@ router
   .get(tourController.getTourStats);
 
 router
-  .route('/montly-plan/:year')
+  .route('/monthly-plan/:year')
   .get(tourController.getMonthlyPlan);
 
 router
